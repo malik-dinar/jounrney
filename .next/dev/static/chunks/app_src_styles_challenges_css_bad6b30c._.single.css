@@ -1,0 +1,71 @@
+/* [project]/app/src/styles/challenges.css [app-client] (css) */
+.challenges-wrapper {
+  background: #fff;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.challenges-container {
+  max-width: 80%;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
+
+.challenges-title {
+  color: #3a3838;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.challenges-card {
+  color: #706e6e;
+  background: #fff;
+  border-radius: 25px;
+  width: 300px;
+  padding: 25px;
+  transition: all .3s;
+  position: absolute;
+  box-shadow: 0 10px 40px #15171b26;
+}
+
+.challenges-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-0 {
+  top: 20px;
+  left: 50px;
+}
+
+.card-1 {
+  top: 20px;
+  right: 50px;
+}
+
+.card-2 {
+  top: 200px;
+  right: 80px;
+}
+
+.card-3 {
+  bottom: 80px;
+  right: 120px;
+}
+
+.card-4 {
+  top: 200px;
+  left: 80px;
+}
+
+.card-5 {
+  bottom: 80px;
+  left: 120px;
+}
+
+/*# sourceMappingURL=app_src_styles_challenges_css_bad6b30c._.single.css.map*/

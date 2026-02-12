@@ -1,0 +1,63 @@
+/* [project]/app/src/styles/whyChooseUs.css [app-client] (css) */
+.why-section {
+  background-image: url("../media/seniorcare.8ecbc084.webp");
+  background-position: center;
+  background-size: cover;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 600px;
+  padding: 40px;
+  display: flex;
+  position: relative;
+}
+
+.overlay-box {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: #783214bf;
+  border-radius: 25px;
+  max-width: 450px;
+  padding: 30px;
+}
+
+.overlay-box h2 {
+  color: #c4d600;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.overlay-box ul {
+  padding: 0;
+  list-style: none;
+}
+
+.overlay-box li {
+  color: #fff;
+  margin-bottom: 18px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  position: relative;
+}
+
+.overlay-box li:before {
+  content: "■";
+  color: #c4d600;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .why-section {
+    align-items: center;
+    padding: 20px;
+  }
+
+  .overlay-box {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=app_src_styles_whyChooseUs_css_bad6b30c._.single.css.map*/
