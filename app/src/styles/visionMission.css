@@ -1,0 +1,81 @@
+.vision-wrapper {
+  width: 100%;
+  padding: 20px 0;
+  background: #e2e1e1;
+
+   /* background: linear-gradient(rgb(238, 238, 238) 17.2845%, rgba(243, 214, 255, 0.8) 80.7468%, rgba(163, 201, 239, 0.68) 100%)red; */
+}
+
+.vision-container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  
+
+}
+
+/* LEFT SIDE */
+.vision-left {
+  flex: 1;
+  display: flex;
+  gap: 40px;
+}
+
+/* CARD */
+.vision-card {
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+color: #1a1919;
+  transition: 0.3s ease;
+  font-size: 30px;
+  box-shadow: 0 10px 40px rgba(21, 23, 27, 0.15);
+
+  
+}
+
+.vision-card:hover {
+  transform: translateY(-6px);
+}
+
+.vision-card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.vision-card p {
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 1.6;
+color: #1a1919;}
+
+/* RIGHT SIDE */
+.vision-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.be-image {
+  width: 350px;
+  height: 450px;        /* taller than width = oval */
+  object-fit: cover;
+  border-radius: 50%;   /* makes it oval */
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .vision-container {
+    flex-direction: column;
+  }
+
+  .vision-right {
+    margin-top: 40px;
+  }
+}

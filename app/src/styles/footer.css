@@ -1,0 +1,37 @@
+.footer-headings{
+    text-align: center;
+}
+.footer-buttons{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.buttons-main{
+    text-align: center;
+    padding: 20px !important;
+}
+.footer-line{
+    border: solid 1px var(--subheading);
+}
+.copy{
+    float: left;
+    padding:15px 24px;
+    height: 100%;
+    color: var(--black);
+}
+.copy-left{
+    float: left;
+    width: auto;
+    height: 100%;
+}
+.copyleft-heading{
+    color: var(--black);
+}
+.copy-right{
+    float: right;
+    width: auto;
+    height: 100%;
+
+}

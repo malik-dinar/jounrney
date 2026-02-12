@@ -1,0 +1,62 @@
+
+.why-section {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background-image: url("../assets/seniorcare.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+/* Overlay Card */
+.overlay-box {
+  background: rgba(120, 50, 20, 0.75); /* transparent brown */
+  padding: 30px;
+  max-width: 450px;
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+}
+
+.overlay-box h2 {
+  color: #c4d600;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.overlay-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.overlay-box li {
+  position: relative;
+  margin-bottom: 18px;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Custom square bullets */
+.overlay-box li::before {
+  content: "■";
+  position: absolute;
+  left: 0;
+  color: #c4d600;
+  font-size: 12px;
+  top: 5px;
+}
+
+@media (max-width: 768px) {
+  .why-section {
+    align-items: center;
+    padding: 20px;
+  }
+
+  .overlay-box {
+    max-width: 100%;
+  }
+}

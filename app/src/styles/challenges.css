@@ -1,0 +1,48 @@
+.challenges-wrapper {
+  width: 100%;
+  padding: 20px 0;
+  background: #ffffff;
+  position: relative;
+}
+
+
+.challenges-container {
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+  height: 600px;
+}
+
+.challenges-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: 700;
+  color: #3a3838;
+}
+
+/* CARD STYLE */
+.challenges-card {
+  position: absolute;
+  width: 300px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 40px rgba(21, 23, 27, 0.15);
+  background: white;
+  transition: 0.3s ease;
+  color: #706e6e;
+}
+
+.challenges-card:hover {
+  transform: translateY(-8px);
+}
+
+/* POSITIONING EACH CARD */
+.card-0 { top: 20px; left: 50px; }
+.card-1 { top: 20px; right: 50px; }
+.card-2 { top: 200px; right: 80px; }
+.card-3 { bottom: 80px; right: 120px; }
+.card-4 { top: 200px; left: 80px; }
+.card-5 { bottom: 80px; left: 120px; }

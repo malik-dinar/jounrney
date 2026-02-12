@@ -1,0 +1,75 @@
+
+.landing-main {
+    height: 100vh;
+    width: 100%;
+    background: url("../assets/MainImage.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.landing-main .app-selection{position: absolute; bottom: -100px; left: 0; min-height: 10px;}
+
+.landing-main .app-selection .app-container{max-width: 80%;}
+.landing-main .app-selection .content{
+    background: #fff; border-radius: 50px; min-height: 200px;  box-shadow:var(--box-shadow);
+}
+.landing-heading{
+    padding: 200px 0 0 142px !important;
+    color: var(--white);
+    font-size: 45px;
+}
+
+.image{
+    height:auto;
+    padding: 15px 0 0 142px !important;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.overlay-content h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.highlight {
+    background: #d8e792;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-section {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;  /* adjust position */
+    text-align: center;
+    color: #6b2d1f;
+}
+
+.logo-section img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.logo-section h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-section p {
+    margin: 0;
+    font-size: 14px;
+}
+

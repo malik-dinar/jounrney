@@ -1,0 +1,73 @@
+
+.hope-wrapper {
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.hope-container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+.hope-left {
+  flex: 1;
+}
+
+.hope-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.hope-letter {
+  font-size: 80px;
+  font-weight: 700;
+  color: #c4d600;   /* lime green */
+  margin-right: 20px;
+  line-height: 1;
+}
+.hope-text {
+  margin-top: 18px;
+}
+
+.hope-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hope-text p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* RIGHT SIDE */
+.hope-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hope-right img {
+  max-width: 100%;
+  height: auto;
+  height: 500px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .hope-container {
+    flex-direction: column;
+  }
+
+  .hope-letter {
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,30 @@
+.default{
+    border: none;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    float: left;
+    font-size: 15px;
+    cursor: pointer;
+    /* box-shadow: var(--box-shadow); */
+
+}
+.light{
+    border: solid 1px lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+
+}
+.blue{
+    border: solid 1px blue;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--white);
+    float: left;
+    box-shadow: var(--box-shadow);
+
+}

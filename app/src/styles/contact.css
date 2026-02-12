@@ -1,0 +1,91 @@
+.contact-core {
+    display: flex;
+    padding: 20px 0;
+    border-top: 2px solid rgb(223, 223, 223);
+}
+
+
+h1{
+    color: #6b2d1f;
+}
+
+/* RIGHT SIDE */
+.contact-right {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 2 columns */
+    gap: 30px;
+}
+
+/* EACH BOX */
+.contact-item {
+  /* background: #f5f5f5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  color: #6b2d1f;
+  transition: transform 0.2s ease;
+  transform: scale(0.9);
+}
+
+.contact-item:hover {
+  transform: scale(1);
+}
+
+/* Circle container */
+.icon-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Make icon white */
+.icon-circle img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: brightness(0) invert(1)
+}
+
+.contact-item h2 {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200px;
+}
+
+.contact-item p {
+  margin: 3px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.orange {
+  background-color: #d86a2c;
+}
+
+.yellow {
+  background-color: #c9b12f;
+}
+
+.green {
+  background-color: #2e6b3f;
+}
+
+.dark {
+  background-color: #111;
+}
+
+
+
+.contact-item:hover {
+  transform: scale(1);
+}

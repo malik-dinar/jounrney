@@ -1,0 +1,25 @@
+.no-default, .no-default *{margin: 0; padding: 0; text-decoration: none; list-style: none;}
+
+body{
+    overflow: hidden;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif !important;
+}
+.main-container{
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: auto;
+    overflow: auto;
+
+}
+.d-flex{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.col-12, .col-6, .col-7, .col-4{width: 100%; height: auto; padding: 0; margin: 0; float: left;}
+.col-6{width: 50%;}
+.col-8{width: 60%;}
+.col-4{width: 40%;}
+

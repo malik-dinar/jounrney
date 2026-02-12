@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;   /* Professional banner height */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Image */
+.slide-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;   /* Adjust cropping */
+  filter: brightness(85%);
+  transform: scale(1.02);
+  transition: transform 8s ease;
+}
+
+.slide.active .slide-image {
+  transform: scale(1.05);   /* subtle premium zoom */
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* First slide title */
+.main-title {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+/* Department list */
+.points {
+  list-style: none;
+ 
+}
+
+.points {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 800px;
+
+}
+
+.points li {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.points li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fff;   /* soft accent color */
+}
+
+
+
+/* Other slide text */
+.overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+/* Arrows */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
