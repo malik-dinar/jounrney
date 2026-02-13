@@ -7,39 +7,39 @@ import website from "../assets/website.png"
 
 export const Contact = () => {
   return (
-    <div className="col-12 contact-main">
+    <div className="col-12 contact-main" id="contact">
       <div className="app-container">
         <section className="contact-core">
           <div className="contact-right">
-<div className="contact-item">
-  <div className="icon-circle orange">
-    <img src={addresss.src} alt="Honor" />
-  </div>
-  <h2>ADDRESSS</h2>
-  <p>#204 LANGWELL</p>
-  <p>COMMON SE</p>
-  <p>AIRDRIE, AB</p>
+            <div className="contact-item">
+              <div className="icon-circle orange">
+                <img src={addresss.src} alt="Honor" />
+              </div>
+              <h2>ADDRESSS</h2>
+              <p>#204 LANGWELL</p>
+              <p>COMMON SE</p>
+              <p>AIRDRIE, AB</p>
 
-</div>
+            </div>
             <div className="contact-item">
               <div className="icon-circle yellow">
-              <img
-                src={phone.src}
-                alt="Phone"
-                style={{ width: "80px", height: "auto" }}
-              />
+                <img
+                  src={phone.src}
+                  alt="Phone"
+                  style={{ width: "80px", height: "auto" }}
+                />
               </div>
               <h2>PHONE</h2>
               <p>587-703-8343</p>
               <p>587-998-9909</p>
-              </div>
+            </div>
             <div className="contact-item">
               <div className="icon-circle green">
-              <img
-                src={email.src}
-                alt="Person"
-                style={{ width: "80px", height: "auto" }}
-              />
+                <img
+                  src={email.src}
+                  alt="Person"
+                  style={{ width: "80px", height: "auto" }}
+                />
               </div>
 
               <h2>EMAIL</h2>
@@ -48,13 +48,14 @@ export const Contact = () => {
             </div>
             <div className="contact-item">
               <div className="icon-circle dark">
-            <img
-                src={website.src}
-                alt="empowerment"
-                style={{ width: "80px", height: "auto" }}
-              />
+                <img
+                  src={website.src}
+                  alt="empowerment"
+                  style={{ width: "80px", height: "auto" }}
+                />
               </div>
               <h2>WEBSITE</h2>
+              <p>https://www.journey-hope.ca/</p>
             </div>
           </div>
         </section>

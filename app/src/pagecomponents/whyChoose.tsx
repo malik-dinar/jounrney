@@ -34,7 +34,7 @@ export const WhyChoose = () => {
 
     //   </div>
     // </div>
-<section className="why-section">
+<section className="why-section"  id="services">
 
       <div className="overlay-box">
         <h2>Why Choose Us</h2>

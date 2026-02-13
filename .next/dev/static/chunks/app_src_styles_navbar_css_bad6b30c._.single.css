@@ -1,0 +1,68 @@
+/* [project]/app/src/styles/navbar.css [app-client] (css) */
+.navbar {
+  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-left img {
+  width: 100px;
+}
+
+.nav-right {
+  gap: 30px;
+  display: flex;
+}
+
+.nav-right button {
+  color: #6b2d1f;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-right button:after {
+  content: "";
+  background: #6b2d1f;
+  width: 0;
+  height: 2px;
+  transition: width .3s;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+
+.nav-right button:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav-right {
+    gap: 18px;
+  }
+
+  .nav-right button {
+    font-size: 14px;
+  }
+
+  .nav-left img {
+    width: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-right {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=app_src_styles_navbar_css_bad6b30c._.single.css.map*/

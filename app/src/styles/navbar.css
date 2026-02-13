@@ -1,0 +1,78 @@
+/* ===============================
+   NAVBAR
+================================ */
+.navbar {
+  position: absolute;         /* sits on hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+/* ===============================
+   LEFT LOGO
+================================ */
+.nav-left img {
+  width: 100px;
+}
+
+/* ===============================
+   RIGHT BUTTONS
+================================ */
+.nav-right {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-right button {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b2d1f;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Hover underline */
+.nav-right button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: #6b2d1f;
+  transition: width 0.3s ease;
+}
+
+.nav-right button:hover::after {
+  width: 100%;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .nav-right {
+    gap: 18px;
+  }
+
+  .nav-right button {
+    font-size: 14px;
+  }
+
+  .nav-left img {
+    width: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-right {
+    display: none; /* later can add hamburger */
+  }
+}

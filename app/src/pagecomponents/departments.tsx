@@ -24,7 +24,7 @@ const slides = [
   },
   {
     title: "Group Living",
-    description:[
+    description: [
       "We provide a safe, structured, and supportive shared living environment designed to promote independence and well-being.",
       "Our services include assistance with meal preparation, medical appointments, medication administration, shopping, housekeeping, and overall home maintenance.",
     ],
@@ -74,7 +74,7 @@ export default function Departments() {
   };
 
   return (
-    <div className="slider">
+    <div className="slider" id="departments">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -86,15 +86,15 @@ export default function Departments() {
             className="slide-image"
           />
 
-<div className="overlay">
-  <h1 className="main-title">{slide.title}</h1>
+          <div className="overlay">
+            <h1 className="main-title">{slide.title}</h1>
 
-  <ul className="points">
-    {(slide.points || slide.description).map((item, i) => (
-      <li key={i}>{item}</li>
-    ))}
-  </ul>
-</div>
+            <ul className="points">
+              {(slide.points || slide.description).map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       ))}
 

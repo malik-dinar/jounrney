@@ -6,14 +6,13 @@ import { WhyChoose } from "./src/pagecomponents/whyChoose";
 import { JourneyOfHopeCore } from "./src/pagecomponents/journeyOfHopeCore";
 import { JourneyOfHope } from "./src/pagecomponents/journeyofHope";
 import { Contact } from "./src/pagecomponents/contact";
-import RotatingGrid from "./src/pagecomponents/rotating";
 import Departments from "./src/pagecomponents/departments";
+import { Navbar } from "./src/pagecomponents/navbar";
 
 export default function Home() {
   return (
     <main className="relative h-screen w-full">
-    {/* <RotatingGrid/> */}
-
+    <Navbar/>
     <Landing/>
     <JourneyOfHopeCore/>
     <VisionMissions/>
@@ -22,8 +21,6 @@ export default function Home() {
     <JourneyOfHope/>
     <Departments/>
     <Contact/>
-
-    {/* <Sample/> */}
     </main>
   );
 }

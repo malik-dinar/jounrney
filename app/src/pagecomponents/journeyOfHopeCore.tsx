@@ -7,7 +7,7 @@ import disability from "../assets/disability.avif"
 
 export const JourneyOfHopeCore= () => {
   return (
-        <section className="hope-wrapper">
+        <section className="hope-wrapper" id="about">
       <div className="hope-container">
 
         {/* LEFT SIDE */}
