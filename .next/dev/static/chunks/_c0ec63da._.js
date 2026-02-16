@@ -139,17 +139,24 @@ const slides = [
 function Departments() {
     _s();
     const [current, setCurrent] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const intervalRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Departments.useEffect": ()=>{
-            const interval = setInterval({
-                "Departments.useEffect.interval": ()=>{
+            if (intervalRef.current) return;
+            intervalRef.current = setInterval({
+                "Departments.useEffect": ()=>{
                     setCurrent({
-                        "Departments.useEffect.interval": (prev)=>prev === slides.length - 1 ? 0 : prev + 1
-                    }["Departments.useEffect.interval"]);
+                        "Departments.useEffect": (prev)=>prev === slides.length - 1 ? 0 : prev + 1
+                    }["Departments.useEffect"]);
                 }
-            }["Departments.useEffect.interval"], 4000);
+            }["Departments.useEffect"], 20000);
             return ({
-                "Departments.useEffect": ()=>clearInterval(interval)
+                "Departments.useEffect": ()=>{
+                    if (intervalRef.current) {
+                        clearInterval(intervalRef.current);
+                        intervalRef.current = null;
+                    }
+                }
             })["Departments.useEffect"];
         }
     }["Departments.useEffect"], []);
@@ -172,7 +179,7 @@ function Departments() {
                             className: "slide-image"
                         }, void 0, false, {
                             fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                            lineNumber: 83,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,7 +190,7 @@ function Departments() {
                                     children: slide.title
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -192,24 +199,24 @@ function Departments() {
                                             children: item
                                         }, i, false, {
                                             fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 97,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                            lineNumber: 89,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     ]
                 }, index, true, {
                     fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                    lineNumber: 79,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -218,7 +225,7 @@ function Departments() {
                 children: "❮"
             }, void 0, false, {
                 fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                lineNumber: 101,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -227,17 +234,17 @@ function Departments() {
                 children: "❯"
             }, void 0, false, {
                 fileName: "[project]/app/src/pagecomponents/departments.tsx",
-                lineNumber: 102,
+                lineNumber: 105,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/src/pagecomponents/departments.tsx",
-        lineNumber: 77,
+        lineNumber: 85,
         columnNumber: 5
     }, this);
 }
-_s(Departments, "Ce5S7Zpl2S4YgGoPn+G4m52qKq8=");
+_s(Departments, "ARVYAyy5s3XQ/aziU3ywrvYnoek=");
 _c = Departments;
 var _c;
 __turbopack_context__.k.register(_c, "Departments");

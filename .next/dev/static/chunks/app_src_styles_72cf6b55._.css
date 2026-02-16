@@ -235,7 +235,7 @@
 
 /* [project]/app/src/styles/whyChooseUs.css [app-client] (css) */
 .why-section {
-  background-image: url("../media/seniorcare.8ecbc084.webp");
+  background-image: url("../media/seniorcare.6945b96c.webp");
   background-position: center;
   background-size: cover;
   align-items: flex-end;
@@ -668,6 +668,57 @@ h1 {
 
 .next {
   right: 20px;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 420px;
+  }
+
+  .main-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .points li {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .slide-image {
+    object-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: auto;
+    min-height: 360px;
+  }
+
+  .overlay {
+    padding: 16px;
+  }
+
+  .main-title {
+    margin-bottom: 16px;
+    font-size: 26px;
+  }
+
+  .points {
+    margin-top: 10px;
+  }
+
+  .points li {
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .prev, .next {
+    padding: 8px 12px;
+    font-size: 1.5rem;
+  }
 }
 
 /* [project]/app/src/styles/navbar.css [app-client] (css) */

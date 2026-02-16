@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../styles/department.css";
 
 const slides = [
@@ -50,15 +50,23 @@ const slides = [
 
 export default function Departments() {
   const [current, setCurrent] = useState(0);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    if (intervalRef.current) return;
+
+    intervalRef.current = setInterval(() => {
       setCurrent((prev) =>
         prev === slides.length - 1 ? 0 : prev + 1
       );
-    }, 4000);
+    }, 20000);
 
-    return () => clearInterval(interval);
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+    };
   }, []);
 
   const nextSlide = () => {
@@ -80,15 +88,10 @@ export default function Departments() {
           key={index}
           className={`slide ${index === current ? "active" : ""}`}
         >
-          <img
-            src={slide.bg}
-            alt={slide.title}
-            className="slide-image"
-          />
+          <img src={slide.bg} alt={slide.title} className="slide-image" />
 
           <div className="overlay">
             <h1 className="main-title">{slide.title}</h1>
-
             <ul className="points">
               {(slide.points || slide.description).map((item, i) => (
                 <li key={i}>{item}</li>
