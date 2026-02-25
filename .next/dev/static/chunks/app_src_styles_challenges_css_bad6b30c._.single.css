@@ -2,35 +2,31 @@
 .challenges-wrapper {
   background: #fff;
   width: 100%;
-  padding: 20px 0;
-  position: relative;
+  padding: 80px 20px;
 }
 
 .challenges-container {
-  max-width: 80%;
-  height: 600px;
+  max-width: 1200px;
   margin: auto;
   position: relative;
 }
 
 .challenges-title {
+  text-align: center;
   color: #3a3838;
+  margin-bottom: 60px;
   font-size: 48px;
   font-weight: 700;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .challenges-card {
   color: #706e6e;
   background: #fff;
   border-radius: 25px;
-  width: 300px;
+  width: 100%;
+  max-width: 320px;
   padding: 25px;
-  transition: all .3s;
-  position: absolute;
+  transition: transform .3s;
   box-shadow: 0 10px 40px #15171b26;
 }
 
@@ -38,79 +34,69 @@
   transform: translateY(-8px);
 }
 
-.card-0 {
-  top: 20px;
-  left: 50px;
+.challenges-container {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 30px;
+  display: grid;
 }
 
-.card-1 {
-  top: 20px;
-  right: 50px;
-}
-
-.card-2 {
-  top: 200px;
-  right: 80px;
-}
-
-.card-3 {
-  bottom: 80px;
-  right: 120px;
-}
-
-.card-4 {
-  top: 200px;
-  left: 80px;
-}
-
-.card-5 {
-  bottom: 80px;
-  left: 120px;
-}
-
-@media (max-width: 1024px) {
-  .challenges-container {
-    max-width: 95%;
-    height: auto;
-    padding: 80px 0;
-  }
-
-  .challenges-title {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 36px;
-    position: static;
-    transform: none;
-  }
-
-  .challenges-card {
-    width: 100%;
-    max-width: 320px;
-    position: static;
-  }
-
+@media (min-width: 640px) {
   .challenges-container {
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 30px;
-    display: grid;
+  }
+
+  .challenges-title {
+    font-size: 36px;
   }
 }
 
-@media (max-width: 600px) {
-  .challenges-title {
-    margin-bottom: 30px;
-    font-size: 28px;
+@media (min-width: 1200px) {
+  .challenges-container {
+    height: 600px;
+    display: block;
   }
 
-  .challenges-container {
-    grid-template-columns: 1fr;
-    padding: 60px 0;
+  .challenges-title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .challenges-card {
-    max-width: 100%;
-    padding: 20px;
+    position: absolute;
+  }
+
+  .card-0 {
+    top: 20px;
+    left: 50px;
+  }
+
+  .card-1 {
+    top: 20px;
+    right: 50px;
+  }
+
+  .card-2 {
+    top: 200px;
+    right: 80px;
+  }
+
+  .card-3 {
+    bottom: 80px;
+    right: 120px;
+  }
+
+  .card-4 {
+    top: 200px;
+    left: 80px;
+  }
+
+  .card-5 {
+    bottom: 80px;
+    left: 120px;
   }
 }
 
