@@ -15,26 +15,8 @@ export const WhyChoose = () => {
   ];
 
   return (
-    // <div className="whychoose-wrapper">
-    //   <div className="whychoose-container">
 
-    //     {/* HEADING */}
-    //     <div className="whychoose-heading">
-    //       <h1>Why Choose Us</h1>
-    //     </div>
-
-    //     {/* CARDS */}
-    //     <div className="whychoose-cards">
-    //       {data.map((item, index) => (
-    //         <div key={index} className="whychoose-card">
-    //           <p>{item.text}</p>
-    //         </div>
-    //       ))}
-    //     </div>
-
-    //   </div>
-    // </div>
-<section className="why-section"  id="services">
+    <section className="why-section" id="services">
 
       <div className="overlay-box">
         <h2>Why Choose Us</h2>

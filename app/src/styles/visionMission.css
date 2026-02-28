@@ -64,9 +64,9 @@ color: #1a1919;}
 
 .be-image {
   width: 350px;
-  height: 450px;        /* taller than width = oval */
+  height: 450px;        
   object-fit: cover;
-  border-radius: 50%;   /* makes it oval */
+  border-radius: 50%;   
 }
 
 /* RESPONSIVE */

@@ -1,6 +1,6 @@
 import mission from "../assets/mission.png";
 import vision from "../assets/vision.png";
-import beImage from "../assets/visionMission.png"; // your backend image
+import beImage from "../assets/visionMission.png";
 import "../styles/visionMission.css";
 export const VisionMissions = () => {
     const data = [

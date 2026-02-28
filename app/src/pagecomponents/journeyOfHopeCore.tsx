@@ -1,7 +1,4 @@
 import "../styles/journeyofhopecore.css";
-import Honor from "../assets/Honor.png";
-import Openness from "../assets/Handshake.png";
-import Person from "../assets/Person.png"
 import disability from "../assets/disability.avif"
 
 

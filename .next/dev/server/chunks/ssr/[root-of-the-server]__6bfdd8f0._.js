@@ -214,7 +214,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$src$2f$assets$2f$mission$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$src$2f$assets$2f$mission$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/src/assets/mission.png.mjs { IMAGE => "[project]/app/src/assets/mission.png (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$src$2f$assets$2f$vision$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$src$2f$assets$2f$vision$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/src/assets/vision.png.mjs { IMAGE => "[project]/app/src/assets/vision.png (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$src$2f$assets$2f$visionMission$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$src$2f$assets$2f$visionMission$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/src/assets/visionMission.png.mjs { IMAGE => "[project]/app/src/assets/visionMission.png (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)'); // your backend image
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$src$2f$assets$2f$visionMission$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$src$2f$assets$2f$visionMission$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/src/assets/visionMission.png.mjs { IMAGE => "[project]/app/src/assets/visionMission.png (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
 ;
 ;
 ;
@@ -336,23 +336,7 @@ const WhyChoose = ()=>{
             text: "Focus On Skill Development & Personal Goals."
         }
     ];
-    return(// <div className="whychoose-wrapper">
-    //   <div className="whychoose-container">
-    //     {/* HEADING */}
-    //     <div className="whychoose-heading">
-    //       <h1>Why Choose Us</h1>
-    //     </div>
-    //     {/* CARDS */}
-    //     <div className="whychoose-cards">
-    //       {data.map((item, index) => (
-    //         <div key={index} className="whychoose-card">
-    //           <p>{item.text}</p>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </div>
-    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "why-section",
         id: "services",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -362,7 +346,7 @@ const WhyChoose = ()=>{
                     children: "Why Choose Us"
                 }, void 0, false, {
                     fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-                    lineNumber: 40,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -371,40 +355,40 @@ const WhyChoose = ()=>{
                             children: "Our team focuses on supporting you in developing the skills and achieving the outcomes you want in life."
                         }, void 0, false, {
                             fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-                            lineNumber: 43,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             children: "At the heart of our work is a deep commitment to nurturing potential, fostering belonging, and creating opportunities for individuals of all ages to thrive. Our programs are led by compassionate, highly trained staff and devoted volunteers who bring both professional expertise and genuine care to every interaction."
                         }, void 0, false, {
                             fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-                            lineNumber: 48,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             children: "We offer a welcoming, inclusive space where young people and adults can explore their interests, build meaningful connections, and discover their strengths through a wide range of enriching recreational, educational, and therapeutic experiences."
                         }, void 0, false, {
                             fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-                            lineNumber: 52,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-                    lineNumber: 42,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-            lineNumber: 39,
+            lineNumber: 21,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/src/pagecomponents/whyChoose.tsx",
-        lineNumber: 37,
-        columnNumber: 1
-    }, ("TURBOPACK compile-time value", void 0)));
+        lineNumber: 19,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0));
 };
 }),
 "[project]/app/src/assets/disability.avif (static in ecmascript, tag client)", ((__turbopack_context__) => {
@@ -458,7 +442,7 @@ const JourneyOfHopeCore = ()=>{
                                     children: "H"
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 17,
+                                    lineNumber: 14,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -468,26 +452,26 @@ const JourneyOfHopeCore = ()=>{
                                             children: "Honor"
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 19,
+                                            lineNumber: 16,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Dignity of each person is fully respected."
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 20,
+                                            lineNumber: 17,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 15,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                            lineNumber: 16,
+                            lineNumber: 13,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -498,7 +482,7 @@ const JourneyOfHopeCore = ()=>{
                                     children: "O"
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,26 +492,26 @@ const JourneyOfHopeCore = ()=>{
                                             children: "Openness"
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "We are transparent about what we do and how we do things."
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 25,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                            lineNumber: 24,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -538,7 +522,7 @@ const JourneyOfHopeCore = ()=>{
                                     children: "P"
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -548,26 +532,26 @@ const JourneyOfHopeCore = ()=>{
                                             children: "Person centered planning"
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "All our actions are centered around the individual."
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                            lineNumber: 32,
+                            lineNumber: 29,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -578,7 +562,7 @@ const JourneyOfHopeCore = ()=>{
                                     children: "E"
                                 }, void 0, false, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -588,32 +572,32 @@ const JourneyOfHopeCore = ()=>{
                                             children: "Empowering"
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Support individuals to make informed decisions about their life."
                                         }, void 0, false, {
                                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 41,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                            lineNumber: 40,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                    lineNumber: 14,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -623,23 +607,23 @@ const JourneyOfHopeCore = ()=>{
                         alt: "Hope Illustration"
                     }, void 0, false, {
                         fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                        lineNumber: 52,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-                    lineNumber: 51,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-            lineNumber: 11,
+            lineNumber: 8,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/src/pagecomponents/journeyOfHopeCore.tsx",
-        lineNumber: 10,
+        lineNumber: 7,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };

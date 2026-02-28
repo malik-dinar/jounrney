@@ -2,7 +2,7 @@
    NAVBAR
 ================================ */
 .navbar {
-  position: absolute;         /* sits on hero */
+  position: absolute;  
   top: 0;
   left: 0;
   width: 100%;
@@ -73,6 +73,6 @@
 
 @media (max-width: 480px) {
   .nav-right {
-    display: none; /* later can add hamburger */
+    display: none;
   }
 }
