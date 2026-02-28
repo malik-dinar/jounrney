@@ -1,51 +1,63 @@
 .challenges-wrapper {
-  width: 100%;
   padding: 80px 20px;
   background: #ffffff;
-}
-
-.challenges-container {
-  max-width: 1200px;
-  margin: auto;
-  position: relative;
 }
 
 /* TITLE */
 .challenges-title {
   text-align: center;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   color: #3a3838;
   margin-bottom: 60px;
 }
 
+/* GRID */
+.challenges-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
 /* CARD */
 .challenges-card {
-  background: white;
-  width: 100%;
-  max-width: 320px;
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 0 10px 40px rgba(21, 23, 27, 0.15);
-  color: #706e6e;
-  transition: transform 0.3s ease;
+  background: #fff;
+  padding: 30px 28px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(21, 23, 27, 0.12);
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  transition: all 0.3s ease;
+}
+
+.challenges-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #6f6d6d;
+  line-height: 1.4;
 }
 
 .challenges-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(21, 23, 27, 0.18);
 }
 
-/* ================= MOBILE (default) ================= */
-.challenges-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  justify-items: center;
+/* small accent */
+.card-dot {
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: #c39a6b;
+  flex-shrink: 0;
 }
 
-/* ================= TABLET ================= */
+/* TABLET */
 @media (min-width: 640px) {
-  .challenges-container {
+  .challenges-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -54,29 +66,13 @@
   }
 }
 
-/* ================= DESKTOP ================= */
-@media (min-width: 1200px) {
-  .challenges-container {
-    display: block;
-    height: 600px;
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .challenges-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .challenges-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    font-size: 40px;
   }
-
-  .challenges-card {
-    position: absolute;
-  }
-
-  .card-0 { top: 20px; left: 50px; }
-  .card-1 { top: 20px; right: 50px; }
-  .card-2 { top: 200px; right: 80px; }
-  .card-3 { bottom: 80px; right: 120px; }
-  .card-4 { top: 200px; left: 80px; }
-  .card-5 { bottom: 80px; left: 120px; }
 }

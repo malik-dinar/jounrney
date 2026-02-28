@@ -1,48 +1,59 @@
 /* [project]/app/src/styles/challenges.css [app-client] (css) */
 .challenges-wrapper {
   background: #fff;
-  width: 100%;
   padding: 80px 20px;
-}
-
-.challenges-container {
-  max-width: 1200px;
-  margin: auto;
-  position: relative;
 }
 
 .challenges-title {
   text-align: center;
   color: #3a3838;
   margin-bottom: 60px;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
 }
 
-.challenges-card {
-  color: #706e6e;
-  background: #fff;
-  border-radius: 25px;
-  width: 100%;
-  max-width: 320px;
-  padding: 25px;
-  transition: transform .3s;
-  box-shadow: 0 10px 40px #15171b26;
-}
-
-.challenges-card:hover {
-  transform: translateY(-8px);
-}
-
-.challenges-container {
+.challenges-grid {
   grid-template-columns: 1fr;
-  justify-items: center;
   gap: 30px;
+  max-width: 1100px;
+  margin: auto;
   display: grid;
 }
 
+.challenges-card {
+  background: #fff;
+  border-radius: 20px;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 30px 28px;
+  transition: all .3s;
+  display: flex;
+  box-shadow: 0 8px 30px #15171b1f;
+}
+
+.challenges-card h2 {
+  color: #6f6d6d;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.challenges-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px #15171b2e;
+}
+
+.card-dot {
+  background: #c39a6b;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+}
+
 @media (min-width: 640px) {
-  .challenges-container {
+  .challenges-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -51,52 +62,13 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .challenges-container {
-    height: 600px;
-    display: block;
+@media (min-width: 1024px) {
+  .challenges-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .challenges-title {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .challenges-card {
-    position: absolute;
-  }
-
-  .card-0 {
-    top: 20px;
-    left: 50px;
-  }
-
-  .card-1 {
-    top: 20px;
-    right: 50px;
-  }
-
-  .card-2 {
-    top: 200px;
-    right: 80px;
-  }
-
-  .card-3 {
-    bottom: 80px;
-    right: 120px;
-  }
-
-  .card-4 {
-    top: 200px;
-    left: 80px;
-  }
-
-  .card-5 {
-    bottom: 80px;
-    left: 120px;
+    font-size: 40px;
   }
 }
 
